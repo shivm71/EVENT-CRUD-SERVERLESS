@@ -14,7 +14,7 @@ import (
 
 //Global variable declaration
 var (
-	res           = ""
+	res           = os.Getenv("TABLE_NAME")
 	tablename     = "event_name"
 	err           error
 	event         = Event{}
