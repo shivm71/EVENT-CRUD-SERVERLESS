@@ -13,7 +13,8 @@ FRONTEND
 6 . now amplify push to make changes on aws 
 
 BACKEND
-7 . install go and navigate to backend directory and run command -- go build -o main *.go -- this will make main file in same directory 
+
+7 . install go and navigate to backend directory and run command -- go build -o main *.go -- this will make main file in same directory  
 8 . now zip it using any zip tool and name it as desired file name
 9 . open aws lambda select the function you build with amplify(functionname-environment name) open it  and under fuction code upload upload your zip 
 10 . As Amplify not directly support Dynamo db so well create one so go to services anf search for dynamodb create a table with your desired name and then make a primary ket as "eventid" and hit same 
