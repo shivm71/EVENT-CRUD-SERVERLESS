@@ -1,11 +1,8 @@
 import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Col,Form,Modal,Row} from 'react-bootstrap';
 import Button from 'react-bootstrap-button-loader';
-
 import DateTimePicker from 'react-datetime-picker';
-
 import {updateevent,deleteevent} from './actions/action'
 
 class UpdateEvent extends React.PureComponent{

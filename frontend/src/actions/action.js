@@ -46,14 +46,15 @@ export var deleteevent = async(event) => {
 }
 
 export var getevents = async(event) => {
-    var cognitoid='';
-    await Auth.currentUserInfo().then(response=>{cognitoid=response.id});
-    var events;
+      var cognitoid='';
+      await Auth.currentUserInfo().then(response=>{cognitoid=response.id});
+      var events;
       await  API.get(apiName,path, {
-            queryStringParameters: {  // OPTIONAL
-            userid: cognitoid,
-        },
+
+                queryStringParameters: {  // OPTIONAL
+                userid: cognitoid,
+            },
       }).then(response =>{events=response.eventlist;})
-    //   console.log(events);
-    return events;
+
+      return events;
 }

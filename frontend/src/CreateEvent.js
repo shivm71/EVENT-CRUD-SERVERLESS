@@ -1,11 +1,8 @@
 import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Col,Form,Modal} from 'react-bootstrap';
 import Button from 'react-bootstrap-button-loader';
-
 import DateTimePicker from 'react-datetime-picker';
-
 import {addevent} from './actions/action'
 
 class CreateEvent extends React.PureComponent{
@@ -26,10 +23,12 @@ class CreateEvent extends React.PureComponent{
     }
     //opens a modal
     handleShow(){
+
         this.setState({createModelShow:true})
     }
     //close a modal
     handleClose(){
+
         this.setState({createModelShow:false})
     }
 
