@@ -1,6 +1,6 @@
-# Learning-server-less
+# Learning-server-less(Event-Todo App)
 
-REACT+GOLANG Aws Serverless
+REACT+GOLANG Aws Serverless App
 
 Working DEMO Link -- https://dev.d1z60efh77bngr.amplifyapp.com/ 
 
