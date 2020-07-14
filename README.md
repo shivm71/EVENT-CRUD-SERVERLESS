@@ -1,7 +1,6 @@
-# border-free-server-less
-Border free assignment REACT+GOLANG Aws Serverless
+# Learning-server-less
 
-Border free assignment REACT+GOLANG Aws Serverless
+REACT+GOLANG Aws Serverless
 
 Working DEMO Link -- https://dev.d1z60efh77bngr.amplifyapp.com/ 
 
